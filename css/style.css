@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Source+Code+Pro:wght@300;400;500;600;700;900&display=swap");
+@import "reset.css";
+
+body {
+  font-family: "Gamja Flower", cursive;
+  /* font-family: "Source Code Pro", monospace; */
+}
+
+/* 네비게이션 */
+#navi {
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+  background-color: #201c1c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navi h1 {
+  width: 50%;
+}
+
+#navi a {
+  color: #fff;
+}
+
+.logo {
+  font-size: 42px;
+}
+
+.main-nav {
+  display: flex;
+}
+
+.main-nav li {
+  margin-left: 30px;
+}
+
+.main-nav a {
+  font-size: 24px;
+}
+
+/* main */
+.container,
+.content {
+  position: relative;
+  cursor: pointer;
+  min-height: 730px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  margin: 0;
+}
+
+#first {
+  background-image: url("../img/work.jpg");
+}
+
+#second {
+  background-image: url("../img/rest.jpg");
+}
+
+#third {
+  background-image: url("../img/coffee.jpg");
+}
+
+.bg-holder {
+  width: 100%;
+  height: 100%;
+}
+
+.text-box {
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content h3 {
+  font-size: 100px;
+}
+
+.content p {
+  font-size: 60px;
+}
