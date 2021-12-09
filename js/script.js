@@ -3,7 +3,7 @@ $(function(){
     // 내비게이션 메뉴 클릭 시 부드럽게 해당 위치로 이동
     $('.scroll').click(function(e){
         e.preventDefault();
-        $('html, body').animate({scrollTop:$(this.hash).offset().top}, 500);
+        $('html, body').animate({scrollTop:$(this.hash).offset().top}, 600);
     });
 
     // section 이 화면 가득하게 만드는 js 
